@@ -1,0 +1,5 @@
+stable-baselines3==2.3.2
+gymnasium==0.29.1
+gymnasium[atari]
+gymnasium[accept-rom-license]
+gymnasium[box2d]
