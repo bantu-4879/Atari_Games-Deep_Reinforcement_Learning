@@ -1,6 +1,14 @@
 # OpenAI CarRacing-v2 DeepRL training using PPO
-# Loading the model from HuggingFace
+## Loading the model from HuggingFace
+```
+from huggingface_sb3 import load_from_hub
 
+repo_id = "Amankankriya/ppo-CarRacing-v2"  # The repo_id
+filename = "ppo-CarRacing-v2.zip"  # The model filename.zip
+
+checkpoint = load_from_hub(repo_id, filename)
+model = PPO.load(checkpoint, print_system_info=True)
+```
 
 ## Understanding the Environment
 **Actions:**<br />
