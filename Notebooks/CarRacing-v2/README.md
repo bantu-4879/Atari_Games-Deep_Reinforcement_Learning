@@ -1,4 +1,6 @@
 # OpenAI CarRacing-v2 DeepRL training using PPO
+# Loading the model from HuggingFace
+
 
 ## Understanding the Environment
 **Actions:**<br />
@@ -42,6 +44,16 @@ The episode finishes when all the tiles are visited. The car can also go outside
     <video src="https://github.com/bantu-4879/Atari_Games-Deep_Reinforcement_Learning/assets/75673216/3e5d93b2-0dd1-438b-8dec-e62c134bb80c" width="400" height="300" controls/>
   </div>
 </div>
+
+## At different parameters
+
+| Learning Rate | Mean Reward | Deviation |
+|---------------|-------------|-----------|
+| 0.00001       | -59.55538536| 25.310341824182267 |
+| 0.00005       | 289.0281644 | 120.81766432392448 |
+| 0.0001        | 81.42063832 | 76.9650508453757   |
+| 0.0002        | 65.2997484  | 72.21204323808004  |
+| 0.0005        | -14.38487644| 61.22441748132813  |
 
 # Problem
 I have tried variety of parameters and figured out that this combination is working in right direction and also fast enough. But after certain training stage, it is not able to learn further. I understand that it is struck at local minimum, but it is not even a acceptable local minimum. If you are reading this please help me figure out how should i get out of that local minimum?
