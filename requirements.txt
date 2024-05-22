@@ -3,3 +3,4 @@ gymnasium==0.29.1
 gymnasium[atari]
 gymnasium[accept-rom-license]
 gymnasium[box2d]
+gymnasium[mujoco]
