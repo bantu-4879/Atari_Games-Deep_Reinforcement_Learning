@@ -31,7 +31,7 @@ This repository is a comprehensive resource for Deep Reinforcement Learning (RL)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Atari_Games-Deep_Reinforcement_Learning.git
+   git clone https://github.com/bantu-4879/Atari_Games-Deep_Reinforcement_Learning.git
    ```
 2. Install the required dependencies:
    ```bash
