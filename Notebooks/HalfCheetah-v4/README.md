@@ -31,3 +31,10 @@ The reward consists of two parts:
 - ctrl_cost: A cost for penalising the cheetah if it takes actions that are too large. It is measured as ctrl_cost_weight * sum(action2) where ctrl_cost_weight is a parameter set for the control and has a default value of 0.1
 
 The total reward returned is reward = forward_reward - ctrl_cost and info will also contain the individual reward terms
+<br />
+<br />
+
+**After Training:** <br />
+![half_cheetah_v4](https://github.com/bantu-4879/Atari_Games-Deep_Reinforcement_Learning/assets/75673216/8f74c529-2e87-4e1c-8f47-046e2dbf625f)
+
+
